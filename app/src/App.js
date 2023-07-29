@@ -13,6 +13,7 @@ import Notfound from "./pages/404";
 import { TRACKING_ID } from "./data/tracking";
 import "./app.css";
 
+
 function App() {
 	useEffect(() => {
 		if (TRACKING_ID !== "") {

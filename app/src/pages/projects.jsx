@@ -11,6 +11,8 @@ import SEO from "../data/seo";
 
 import "./styles/projects.css";
 
+import BasicEmbed from "./projects/basicEmbed";
+
 const Projects = () => {
 	useEffect(() => {
 		window.scrollTo(0, 0);

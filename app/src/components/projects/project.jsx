@@ -11,7 +11,7 @@ const Project = (props) => {
 	return (
 		<React.Fragment>
 			<div className="project">
-				<Link to={link}>
+				<Link to={link}  target="_blank" rel="noopener noreferrer" >
 					<div className="project-container">
 						<img src={imgsrc} placeholder={title}>
 						</img>

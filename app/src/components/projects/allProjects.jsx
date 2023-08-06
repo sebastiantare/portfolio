@@ -2,18 +2,18 @@ import React from "react";
 
 import Project from "./project";
 
-import INFO from "../../data/user";
+import { projectList } from "../../data/projects";
 
 import "./styles/allProjects.css";
 
 const AllProjects = () => {
 	return (
 		<div className="all-projects-container">
-			{INFO.projects.map((project, index) => (
+			{projectList.map((project, index) => (
 				<div className="all-projects-project" key={index}>
 					<Project
 						title={project.title}
-						link={project.link}
+						link={project.path}
 						imgsrc={project.imgsrc}
 					/>
 				</div>

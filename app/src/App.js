@@ -9,10 +9,10 @@ import Articles from "./pages/articles";
 import ReadArticle from "./pages/readArticle";
 import Contact from "./pages/contact";
 import Notfound from "./pages/404";
-
 import { TRACKING_ID } from "./data/tracking";
 import "./app.css";
-
+import { fruitsveg as FruitvegAnalysis } from "./pages/projects/index";
+import { projectList } from "./data/projects";
 
 function App() {
 	useEffect(() => {
@@ -27,6 +27,7 @@ function App() {
 				<Route path="/" element={<Homepage />} />
 				<Route path="/projects" element={<Projects />} />
 				<Route path="/contact" element={<Contact />} />
+				{projectList.map((proj, index) => <Route path={proj.path} element={proj.element} key={index}/>)}
 				<Route path="*" element={<Notfound />} />
 			</Routes>
 		</div>

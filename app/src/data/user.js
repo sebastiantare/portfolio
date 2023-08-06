@@ -23,39 +23,6 @@ const INFO = {
 		take_action: "Contact Now",
 		projects: "My Projects (under construction)"
 	},
-
-	projects: [
-		{
-			title: "Test Tableau",
-			imgsrc: "../tableau.png",
-			link: "https://public.tableau.com/app/profile/sebastian.tare/viz/PeraTest/Hoja2",
-		},
-		{
-			title: "Test Tableau",
-			imgsrc: "../tableau.png",
-			link: "https://public.tableau.com/app/profile/sebastian.tare/viz/PeraTest/Hoja2",
-		},
-		{
-			title: "Test Tableau",
-			imgsrc: "../tableau.png",
-			link: "https://public.tableau.com/app/profile/sebastian.tare/viz/PeraTest/Hoja2",
-		},
-		{
-			title: "Test Tableau",
-			imgsrc: "../tableau.png",
-			link: "https://public.tableau.com/app/profile/sebastian.tare/viz/PeraTest/Hoja2",
-		},
-		{
-			title: "Test Tableau",
-			imgsrc: "../tableau.png",
-			link: "https://public.tableau.com/app/profile/sebastian.tare/viz/PeraTest/Hoja2",
-		},
-		{
-			title: "Test Tableau",
-			imgsrc: "../tableau.png",
-			link: "https://public.tableau.com/app/profile/sebastian.tare/viz/PeraTest/Hoja2",
-		},
-	],
 };
 
 export default INFO;

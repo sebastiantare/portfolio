@@ -4,6 +4,18 @@ object-assign
 @license MIT
 */
 
+/*! API */
+
+/*! BEGIN ApiShared */
+
+/*! BEGIN CoreSlim */
+
+/*! BEGIN MscorlibSlim */
+
+/*! tableau-2.1.2 */
+
+/*! tableau-2.2.1 */
+
 /**
  * @license React
  * react-dom.production.min.js

@@ -11,7 +11,7 @@ const Project = (props) => {
 	return (
 		<React.Fragment>
 			<div className="project">
-
+				<div className="skills-title">{title}</div>
 				<Link to={link} >
 					<div className="project-container">
 						<img src={imgsrc} placeholder={title}>

@@ -11,7 +11,6 @@ import Contact from "./pages/contact";
 import Notfound from "./pages/404";
 import { TRACKING_ID } from "./data/tracking";
 import "./app.css";
-import { fruitsveg as FruitvegAnalysis } from "./pages/projects/index";
 import { projectList } from "./data/projects";
 
 function App() {

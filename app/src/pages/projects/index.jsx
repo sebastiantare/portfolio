@@ -9,6 +9,8 @@ import Footer from "../../components/common/footer";
 import SEO from "../../data/seo";
 
 import FruitvegAnalysis from "./FruitvegAnalysis";
+import Coelcha from "./Coelcha";
+import { useParams } from "react-router-dom";
 
 const ProjectBase = (props) => {
 	useEffect(() => {
@@ -33,7 +35,9 @@ const ProjectBase = (props) => {
 				<div className="content-wrapper">
 
 					<div className="contact-container">
-                        <FruitvegAnalysis/>
+						{
+							props.element
+						}
 					</div>
 
 					<div className="page-footer">
@@ -45,6 +49,7 @@ const ProjectBase = (props) => {
 	);
 };
 
-const fruitsveg = (<ProjectBase element={FruitvegAnalysis} />)
+const fruitsveg = (<ProjectBase element={<FruitvegAnalysis/>} />)
+const coelchaanalysis = (<ProjectBase element={<Coelcha />} />)
 
-export {fruitsveg}
+export { fruitsveg, coelchaanalysis }

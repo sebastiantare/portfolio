@@ -20,21 +20,21 @@ const Skills = () => {
                 <img src="/model.svg" alt="Model" className="skills-svg" />
                 <div className="skills-title">Model</div>
                 <div className="skills-description">
-                    For building predictive models on the analyzed data I use <strong>Scikit-learn</strong>, <strong>PyTorch</strong>, <strong>XGBoost</strong> and <strong>ARIMA</strong>.
+                    For building predictive models and get insights on the data I use <strong>Scikit-learn</strong>, <strong>PyTorch</strong>, <strong>XGBoost</strong> and <strong>ARIMA</strong>.
                 </div>
             </div>
             <div className="skills-project">
                 <img src="/interpret.svg" alt="Interpret" className="skills-svg" />
                 <div className="skills-title">Interpret</div>
                 <div className="skills-description">
-                    Interpreting models and results is a difficult task that can lead to bad decision making, I use <strong>A/B Testing</strong> for experiments, and for model interpretation: <strong>SHAP</strong>, <strong>LIME</strong> and <strong>ELI5</strong> 
+                    Interpreting models and results is a difficult task that can lead to bad decision making, I use <strong>A/B Testing</strong> for experiments, and for model interpretation: <strong>SHAP</strong>, <strong>LIME</strong> or <strong>ELI5</strong> 
                 </div>
             </div>
             <div className="skills-project">
                 <img src="/visualize.svg" alt="Visualize" className="skills-svg" />
                 <div className="skills-title">Visualize</div>
                 <div className="skills-description">
-                    To communicate the results to different levels within an organization I mainly use <strong>Tableau</strong>. 
+                    To communicate the results to different levels within an organization I mainly use <strong>Tableau</strong>, and <strong>Streamlit</strong>.
                 </div>
             </div>
         </div>

@@ -9,6 +9,8 @@ import Articles from "./pages/articles";
 import ReadArticle from "./pages/readArticle";
 import Contact from "./pages/contact";
 import Notfound from "./pages/404";
+import Resume from "./pages/resume";
+
 import { TRACKING_ID } from "./data/tracking";
 import "./app.css";
 import { projectList } from "./data/projects";
@@ -26,6 +28,7 @@ function App() {
 				<Route path="/" element={<Homepage />} />
 				<Route path="/projects" element={<Projects />} />
 				<Route path="/contact" element={<Contact />} />
+				<Route path="/resume" element={<Resume />} />
 				{projectList.map((proj, index) => <Route path={proj.path} element={proj.element} key={index}/>)}
 				<Route path="*" element={<Notfound />} />
 			</Routes>

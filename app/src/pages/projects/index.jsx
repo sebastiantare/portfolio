@@ -49,7 +49,7 @@ const ProjectBase = (props) => {
 	);
 };
 
-const fruitsveg = (<ProjectBase element={<FruitvegAnalysis/>} />)
+const fruitsveg = (<ProjectBase element={<FruitvegAnalysis />} />)
 const coelchaanalysis = (<ProjectBase element={<Coelcha />} />)
 
 export { fruitsveg, coelchaanalysis }

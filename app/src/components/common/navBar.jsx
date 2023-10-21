@@ -28,12 +28,7 @@ const NavBar = (props) => {
 										: "nav-item"
 								}
 							>
-								<a 
-								href="/resume-en.pdf"
-								target="_blank"
-								rel="noreferrer"
-								title="Resume"
-								>Resume</a>
+								<Link to="/resume">Resume</Link>
 							</li>
 							<li
 								className={

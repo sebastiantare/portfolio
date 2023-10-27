@@ -1,5 +1,12 @@
 @import "../../data/styles.css";
 
+.quote  {
+	font-style: italic;
+	font-size: 1.2em;
+	margin: 20px 0;
+	color: gray;
+  }
+
 .homepage-logo-container {
 	display: flex;
 	justify-content: left;

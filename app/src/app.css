@@ -60,7 +60,18 @@
 	text-align: center;
 	padding-top: 0px;
 	color: var(--gun-metal);
-	font-size: 20px;
+	font-size: 30px;
+	line-height: 28px;
+	font-weight: 2000;
+	width: 70%;
+	margin-top: 5px;
+}
+
+.subtitle.quote {
+	text-align: center;
+	padding-top: 0px;
+	color: gray;
+	font-size: 17px;
 	line-height: 28px;
 	width: 70%;
 	margin-top: 5px;
@@ -96,6 +107,7 @@
 }
 
 @media (max-width: 1270px) {
+
 	.page-content:before,
 	.page-content:after {
 		width: calc((100% - 90%) / 2);
@@ -109,6 +121,7 @@
 }
 
 @media (max-width: 1024px) {
+
 	.page-content:before,
 	.page-content:after {
 		width: calc((100% - 950px) / 2);

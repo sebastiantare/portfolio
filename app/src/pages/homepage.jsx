@@ -102,6 +102,10 @@ const Homepage = () => {
 								<div className="subtitle homepage-subtitle">
 									{INFO.homepage.description}
 								</div>
+
+								<div className="subtitle quote homepage-subtitle">
+									&ldquo;{INFO.homepage.phrase}&rdquo;
+								</div>
 							</div>
 						</div>
 

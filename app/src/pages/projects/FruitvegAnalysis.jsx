@@ -1,8 +1,22 @@
 import React, { useEffect, useRef } from 'react';
+import { Link } from 'react-router-dom';
 import tableau from 'tableau-api';
 
+import { Helmet } from "react-helmet";
+
+import NavBar from "../../components/common/navBar";
+import Footer from "../../components/common/footer";
+import Logo from "../../components/common/logo";
+
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faEnvelope, faPhone } from "@fortawesome/free-solid-svg-icons";
+import {
+    faGithub,
+} from "@fortawesome/free-brands-svg-icons";
+
+
 const FruitvegAnalysis = () => {
-    const vizUrl = 'https://public.tableau.com/views/PreciosyVolumendelMercadoMayoristadeFrutasyVerdurasenChile/Sheet1?:language=es-ES&:display_count=n&:origin=viz_share_link';
+    const vizUrl = 'https://public.tableau.com/views/UnaFrutaparainvertirenChile/Dashboard1?:language=es-ES&:display_count=n&:origin=viz_share_link';
     const containerRef = useRef(null);
 
     useEffect(() => {
@@ -39,7 +53,28 @@ const FruitvegAnalysis = () => {
 
     }, [vizUrl]);
 
-    return <div ref={containerRef}></div>;
+    return (
+        <React.Fragment>
+
+            <div className="social">
+                <a
+                    href={"https://github.com/sebastiantare/fruitAndVegAnalysis"}
+                    target="_blank"
+                    rel="noreferrer"
+                >
+                    <div className="social-icon">
+                        <FontAwesomeIcon
+                            icon={faGithub}
+                            className="social-icon"
+                        />
+                    </div>
+                    <div className="social-text">Ir al proyecto</div>
+                </a>
+            </div>
+
+            <div ref={containerRef}></div>
+        </React.Fragment>
+    );
 };
 
 export default FruitvegAnalysis;

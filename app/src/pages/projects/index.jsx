@@ -11,6 +11,7 @@ import SEO from "../../data/seo";
 import FruitvegAnalysis from "./FruitvegAnalysis";
 import Coelcha from "./Coelcha";
 import { useParams } from "react-router-dom";
+import MarketingCampaign from "./MarketingCampaign";
 
 const ProjectBase = (props) => {
 	useEffect(() => {
@@ -51,5 +52,6 @@ const ProjectBase = (props) => {
 
 const fruitsveg = (<ProjectBase element={<FruitvegAnalysis />} />)
 const coelchaanalysis = (<ProjectBase element={<Coelcha />} />)
+const marketingcampaign = (<ProjectBase element={<MarketingCampaign />}/>)
 
-export { fruitsveg, coelchaanalysis }
+export { fruitsveg, coelchaanalysis, marketingcampaign}

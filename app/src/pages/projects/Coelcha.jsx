@@ -1,5 +1,10 @@
 import React, { useEffect, useRef } from 'react';
 import tableau from 'tableau-api';
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faEnvelope, faPhone } from "@fortawesome/free-solid-svg-icons";
+import {
+    faGithub,
+} from "@fortawesome/free-brands-svg-icons";
 
 const Coelcha = () => {
     const vizUrl = 'https://public.tableau.com/views/CmoelvientoylalluviaafectaelserviciodesuministroelctricodelaprovinciadeubleConcepcinyBo-Bo_/Sheet1?:language=es-ES&:display_count=n&:origin=viz_share_link';
@@ -39,7 +44,26 @@ const Coelcha = () => {
 
     }, [vizUrl]);
 
-    return <div ref={containerRef}></div>;
+    return <React.Fragment>
+        <div className="social">
+            <a
+                href={"https://github.com/sebastiantare/climateimpactelectricanalysis"}
+                target="_blank"
+                rel="noreferrer"
+            >
+                <div className="social-icon">
+                    <FontAwesomeIcon
+                        icon={faGithub}
+                        className="social-icon"
+                    />
+                </div>
+                <div className="social-text">Ir al proyecto</div>
+            </a>
+        </div>
+
+        <div ref={containerRef}></div>
+
+    </React.Fragment>;
 };
 
 export default Coelcha;

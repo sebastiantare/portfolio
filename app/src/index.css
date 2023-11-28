@@ -2,10 +2,11 @@
 @import "./data/styles.css";
 
 body {
+	font-size: 18px;
 	margin: 0;
 	font-family: var(--primary-font);
-	-webkit-font-smoothing: antialiased;
-	-moz-osx-font-smoothing: grayscale;
+	-webkit-font-smoothing: none;
+	-moz-osx-font-smoothing: none;
 }
 
 code {

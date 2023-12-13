@@ -28,7 +28,7 @@
 }
 
 .skills-project {
-	width: calc(100% / 4);
+	width: calc(100% / 5);
 	box-sizing: border-box;
 	padding: 10px;
 	overflow: hidden;
@@ -39,7 +39,7 @@
 }
 
 .skills-svg {
-	height: 150px;
+	height: 100px;
 	align-items: center;
 	align-self: center;
 	align-content: center;
@@ -57,7 +57,7 @@
 
 
 .skills-description {
-	font-size: 16px;
+	font-size: 15px;
 }
 
 strong {

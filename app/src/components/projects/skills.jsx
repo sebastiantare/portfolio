@@ -13,7 +13,7 @@ const Skills = () => {
                 <img src="/analyze.svg" alt="Analyze" className="skills-svg" />
                 <div className="skills-title">Analyze</div>
                 <div className="skills-description">
-                    I use tools like <strong>Python</strong>, <strong>Pandas</strong>, <strong>PySpark</strong> and <strong>Jupyter Notebook</strong> to analyze large datasets, identifying trends, patterns, and valuable insights to gain a deeper understanding of the data.
+                    I utilize tools like <strong>Python</strong>, <strong>Pandas</strong>, <strong>PySpark</strong> and <strong>Jupyter Notebook</strong> to analyze large datasets, identifying trends, patterns, and valuable insights to gain a deeper understanding of the data.
                 </div>
             </div>
             <div className="skills-project">
@@ -27,14 +27,21 @@ const Skills = () => {
                 <img src="/interpret.svg" alt="Interpret" className="skills-svg" />
                 <div className="skills-title">Interpret</div>
                 <div className="skills-description">
-                    Interpreting models and results is a difficult task that can lead to bad decision making, I use <strong>A/B Testing</strong> for experiments, and for model interpretation: <strong>SHAP</strong>, <strong>LIME</strong> or <strong>ELI5</strong> 
+                    Interpreting models and results is a difficult task that can lead to bad decision making, I use <strong>A/B Testing</strong> for experiments, and for model interpretation <strong>SHAP</strong> and <strong>LIME</strong>.
                 </div>
             </div>
             <div className="skills-project">
                 <img src="/visualize.svg" alt="Visualize" className="skills-svg" />
                 <div className="skills-title">Visualize</div>
                 <div className="skills-description">
-                    To communicate the results to different levels within an organization I mainly use <strong>Tableau</strong>, and <strong>Streamlit</strong>.
+                    To effectively communicate results across organizational levels, I utilize <strong>Tableau</strong>, and <strong>Streamlit</strong> to create clear and visually compelling representations of data insights.
+                </div>
+            </div>
+            <div className="skills-project">
+                <img src="/cloudservice.svg" alt="Visualize" className="skills-svg" />
+                <div className="skills-title">Deploy</div>
+                <div className="skills-description">
+                    For efficient deployment of scalable and cost-efficient solutions, I utilize <strong>Azure ML</strong>, and <strong>Kubernetes</strong>.
                 </div>
             </div>
         </div>

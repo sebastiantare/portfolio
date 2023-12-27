@@ -8,6 +8,13 @@
 	margin-right: -35px;
 }
 
+.skills-title-center {
+	text-align: center;
+	font-size: 24px; /* Adjust the font size as needed */
+	font-weight: bold; /* Adjust the font weight as needed */
+	margin-bottom: 16px; /* Adjust the margin as needed */
+  }
+
 .all-projects-project {
 	width: calc(100% / 3);
 	box-sizing: border-box;

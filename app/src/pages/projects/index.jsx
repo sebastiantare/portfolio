@@ -10,8 +10,8 @@ import SEO from "../../data/seo";
 
 import FruitvegAnalysis from "./FruitvegAnalysis";
 import Coelcha from "./Coelcha";
-import { useParams } from "react-router-dom";
 import MarketingCampaign from "./MarketingCampaign";
+import ChileanFiresDashboard from "./ChileanFiresDashboard";
 
 const ProjectBase = (props) => {
 	useEffect(() => {
@@ -50,8 +50,10 @@ const ProjectBase = (props) => {
 	);
 };
 
+
+const firesdashboard = (<ProjectBase element={<ChileanFiresDashboard />}/>)
 const fruitsveg = (<ProjectBase element={<FruitvegAnalysis />} />)
 const coelchaanalysis = (<ProjectBase element={<Coelcha />} />)
 const marketingcampaign = (<ProjectBase element={<MarketingCampaign />}/>)
 
-export { fruitsveg, coelchaanalysis, marketingcampaign}
+export { firesdashboard, fruitsveg, coelchaanalysis, marketingcampaign}

@@ -19,7 +19,7 @@ const INFO = {
 
 	homepage: {
 		title: "Sebastian Tare",
-		description:"Data Scientist",
+		description:"Software Engineer",
 		phrase: 'Helping people navigate uncertainty.',
 		take_action: "Contact Now",
 		projects: "My Projects (under construction)"

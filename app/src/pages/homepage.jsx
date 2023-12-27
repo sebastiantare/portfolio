@@ -179,6 +179,11 @@ const Homepage = () => {
 							</Link>
 						</div>
 
+						<br></br>
+						<br></br>
+						<br></br>
+
+
 						<Skills></Skills>
 
 						<br></br>

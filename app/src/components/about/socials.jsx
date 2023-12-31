@@ -7,6 +7,7 @@ import {
 	faLinkedin,
 	faInstagram,
 	faKaggle,
+	faStackOverflow,
 } from "@fortawesome/free-brands-svg-icons";
 
 import INFO from "../../data/user";
@@ -58,6 +59,22 @@ const Socials = () => {
 						/>
 					</div>
 					<div className="social-text">Kaggle</div>
+				</a>
+			</div>
+
+			<div className="social">
+				<a
+					href={INFO.socials.stackoverflow}
+					target="_blank"
+					rel="noreferrer"
+				>
+					<div className="social-icon">
+						<FontAwesomeIcon
+							icon={faStackOverflow}
+							className="social-icon"
+						/>
+					</div>
+					<div className="social-text">StackOverflow</div>
 				</a>
 			</div>
 

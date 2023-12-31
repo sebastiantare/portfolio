@@ -188,11 +188,7 @@ const Homepage = () => {
 
 						<br></br>
 						<br></br>
-						<br></br>
-						<br></br>
-						<br></br>
-						<br></br>
-						<br></br>
+
 
 						<div className="homepage-projects">
 							<div className="homepage-first-area">

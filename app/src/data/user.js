@@ -11,7 +11,7 @@ const INFO = {
 		github: "https://github.com/sebastiantare",
 		linkedin: "https://www.linkedin.com/in/sebastiantare/",
 		instagram: "https://instagram.com/",
-		stackoverflow: "https://stackoverflow.com/",
+		stackoverflow: "https://stackoverflow.com/users/4375107/sebastian-tare-b",
 		facebook: "https://facebook.com/",
 		kaggle: "https://www.kaggle.com/sebastiantarebustos",
 		phone: 'https://wa.me/56996900533'

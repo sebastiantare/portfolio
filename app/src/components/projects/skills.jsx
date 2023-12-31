@@ -6,48 +6,10 @@ import INFO from "../../data/user";
 
 import "./styles/allProjects.css";
 
-const Skills = () => {
-    return (
+const DataSkills = () => {
+    return(
         <>
-            <div className="skills-title-center">Dev Techstack</div>
-            <div className="skills-container">
-                <div className="skills-project">
-                    <img src="/header_logo.svg" alt="Front-End" className="skills-svg" />
-                    <div className="skills-title">Front-End</div>
-                    <div className="skills-description">
-                        I mainly utilize <strong>React.js</strong> for developing websites applications and some libraries like Reactstrap, Material UI, etc. For web design I like to use <strong>Figma</strong>.
-                    </div>
-                </div>
-                <div className="skills-project">
-                    <img src="/python-original.svg" alt="Back-End" className="skills-svg" />
-                    <div className="skills-title">Back-End</div>
-                    <div className="skills-description">
-                        For building the backend I utilize <strong>Python</strong> with <strong>Flask</strong> or <strong>Django</strong> depending on project size for REST API. I can use as well <strong>Node.js</strong> with <strong>Express.js</strong>.
-                    </div>
-                </div>
-                <div className="skills-project">
-                    <img src="/postgresql-original.svg" alt="Database" className="skills-svg" />
-                    <div className="skills-title">Database</div>
-                    <div className="skills-description">
-                        My favorite DB manager is <strong>PostgreSQL</strong> for working with relational data, But I've also worked with technologies like <strong>PostGIS</strong>, <strong>MySQL</strong>, <strong>MongoDB</strong> and <strong>Redis</strong>.
-                    </div>
-                </div>
-                <div className="skills-project">
-                    <img src="/docker-original.svg" alt="DevOps" className="skills-svg" />
-                    <div className="skills-title">DevOps</div>
-                    <div className="skills-description">
-                        For delivering services I employ <strong>Git</strong>, <strong>CI/CD</strong>, <strong>Nginx</strong>, <strong>Docker</strong>, <strong>Azure</strong> and <strong>Kubernetes</strong>.
-                    </div>
-                </div>
-                <div className="skills-project">
-                    <img src="/android-original.svg" alt="Mobile" className="skills-svg" />
-                    <div className="skills-title">Mobile</div>
-                    <div className="skills-description">
-                        To develop Mobile Apps I use <strong>React Native</strong>, <strong>Android Studio</strong>, <strong>XCode</strong> and <strong>Firebase</strong>.
-                    </div>
-                </div>
-            </div>
-            <div className="skills-title-center">Data Techstack</div>
+          <div className="skills-title-center">Data Techstack</div>
             <div className="skills-container">
                 <div className="skills-project">
                     <img src="/analyze.svg" alt="Analyze" className="skills-svg" />
@@ -82,6 +44,50 @@ const Skills = () => {
                     <div className="skills-title">Deploy</div>
                     <div className="skills-description">
                         For efficient deployment of scalable and cost-efficient solutions, I utilize <strong>Azure ML</strong>, and <strong>Kubernetes</strong>.
+                    </div>
+                </div>
+            </div></>
+    );
+}
+
+const Skills = () => {
+    return (
+        <>
+            <div className="skills-title-center">Techstack</div>
+            <div className="skills-container">
+                <div className="skills-project">
+                    <img src="/header_logo.svg" alt="Front-End" className="skills-svg" />
+                    <div className="skills-title">Front-End</div>
+                    <div className="skills-description">
+                        I mainly utilize <strong>React.js</strong> for developing websites applications and some libraries like Reactstrap, Material UI, etc. For web design I like to use <strong>Figma</strong>.
+                    </div>
+                </div>
+                <div className="skills-project">
+                    <img src="/python-original.svg" alt="Back-End" className="skills-svg" />
+                    <div className="skills-title">Back-End</div>
+                    <div className="skills-description">
+                        For building the backend I utilize <strong>Python</strong> with <strong>Flask</strong> or <strong>Django</strong> depending on project size for REST API. I can use as well <strong>Node.js</strong> with <strong>Express.js</strong>.
+                    </div>
+                </div>
+                <div className="skills-project">
+                    <img src="/postgresql-original.svg" alt="Database" className="skills-svg" />
+                    <div className="skills-title">Database</div>
+                    <div className="skills-description">
+                        My favorite DB manager is <strong>PostgreSQL</strong> for working with relational data, But I've also worked with technologies like <strong>PostGIS</strong>, <strong>MySQL</strong>, <strong>MongoDB</strong> and <strong>Redis</strong>.
+                    </div>
+                </div>
+                <div className="skills-project">
+                    <img src="/docker-original.svg" alt="DevOps" className="skills-svg" />
+                    <div className="skills-title">DevOps</div>
+                    <div className="skills-description">
+                        For delivering services I employ <strong>Git</strong>, <strong>CI/CD</strong>, <strong>Nginx</strong>, <strong>Docker</strong>, <strong>Azure</strong> and <strong>Kubernetes</strong>.
+                    </div>
+                </div>
+                <div className="skills-project">
+                    <img src="/android-original.svg" alt="Mobile" className="skills-svg" />
+                    <div className="skills-title">Mobile</div>
+                    <div className="skills-description">
+                        To develop Mobile Apps I use <strong>React Native</strong>, <strong>Android Studio</strong>, <strong>XCode</strong> and <strong>Firebase</strong>.
                     </div>
                 </div>
             </div>

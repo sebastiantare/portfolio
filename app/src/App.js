@@ -16,24 +16,24 @@ import "./app.css";
 import { projectList } from "./data/projects";
 
 function App() {
-	useEffect(() => {
-		if (TRACKING_ID !== "") {
-			ReactGA.initialize(TRACKING_ID);
-		}
-	}, []);
+  useEffect(() => {
+    if (TRACKING_ID !== "") {
+      ReactGA.initialize(TRACKING_ID);
+    }
+  }, []);
 
-	return (
-		<div className="App">
-			<Routes>
-				<Route path="/" element={<Homepage />} />
-				<Route path="/projects" element={<Projects />} />
-				<Route path="/contact" element={<Contact />} />
-				<Route path="/resume" element={<Resume />} />
-				{projectList.map((proj, index) => <Route path={proj.path} element={proj.element} key={index}/>)}
-				<Route path="*" element={<Notfound />} />
-			</Routes>
-		</div>
-	);
+  return (
+    <div className="App">
+      <Routes>
+        <Route path="/" element={<Homepage />} />
+        <Route path="/projects" element={<Projects />} />
+        <Route path="/contact" element={<Contact />} />
+        <Route path="/resume" element={<Resume />} />
+        {projectList.map((proj, index) => <Route path={proj.path} element={proj.element} key={index} />)}
+        <Route path="*" element={<Notfound />} />
+      </Routes>
+    </div>
+  );
 }
 
 export default App;

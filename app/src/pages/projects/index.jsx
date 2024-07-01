@@ -12,48 +12,50 @@ import FruitvegAnalysis from "./FruitvegAnalysis";
 import Coelcha from "./Coelcha";
 import MarketingCampaign from "./MarketingCampaign";
 import ChileanFiresDashboard from "./ChileanFiresDashboard";
+import Centroide from "./Centroide";
 
 const ProjectBase = (props) => {
-	useEffect(() => {
-		window.scrollTo(0, 0);
-	}, []);
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
 
-	const currentSEO = SEO.find((item) => item.page === "projects");
+  const currentSEO = SEO.find((item) => item.page === "projects");
 
-	return (
-		<React.Fragment>
-			<Helmet>
-				<title>{`Project`}</title>
-				<meta name="description" content={currentSEO.description} />
-				<meta
-					name="keywords"
-					content={currentSEO.keywords.join(", ")}
-				/>
-			</Helmet>
+  return (
+    <React.Fragment>
+      <Helmet>
+        <title>{`Project`}</title>
+        <meta name="description" content={currentSEO.description} />
+        <meta
+          name="keywords"
+          content={currentSEO.keywords.join(", ")}
+        />
+      </Helmet>
 
-			<div className="page-content">
-				<NavBar active="projects" />
-				<div className="content-wrapper">
+      <div className="page-content">
+        <NavBar active="projects" />
+        <div className="content-wrapper">
 
-					<div className="contact-container">
-						{
-							props.element
-						}
-					</div>
+          <div className="contact-container">
+            {
+              props.element
+            }
+          </div>
 
-					<div className="page-footer">
-						<Footer />
-					</div>
-				</div>
-			</div>
-		</React.Fragment>
-	);
+          <div className="page-footer">
+            <Footer />
+          </div>
+        </div>
+      </div>
+    </React.Fragment>
+  );
 };
 
 
-const firesdashboard = (<ProjectBase element={<ChileanFiresDashboard />}/>)
+const firesdashboard = (<ProjectBase element={<ChileanFiresDashboard />} />)
 const fruitsveg = (<ProjectBase element={<FruitvegAnalysis />} />)
 const coelchaanalysis = (<ProjectBase element={<Coelcha />} />)
-const marketingcampaign = (<ProjectBase element={<MarketingCampaign />}/>)
+const marketingcampaign = (<ProjectBase element={<MarketingCampaign />} />)
+const centroide = (<ProjectBase element={<Centroide />} />)
 
-export { firesdashboard, fruitsveg, coelchaanalysis, marketingcampaign}
+export { firesdashboard, fruitsveg, coelchaanalysis, marketingcampaign, centroide }
